@@ -8,6 +8,7 @@ patch:
     import_preset: symbols
   schema_list:
     - schema: flypy_double
+    - schema: luna_pinyin_simp
   key_binder:
     bindings:
       - { when: has_menu, accept: semicolon,  send: 2 }
