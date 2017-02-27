@@ -2,13 +2,13 @@
 # encoding: utf-8
 
 schema :
-  schema_id : flypy_double
+  schema_id : double_pinyin_flypy_lh
   name : 小鹤双拼加形
-  version : "2015.1.15"
+  version : "2017.02.27"
   author :
     - 码表作者：小鹤双拼 www.flypy.com
-    - 原方案作者：P1461@百度贴吧
-    - 方案修改：zecy@github.com
+    - 原方案作者：zecy@github.com
+    - 方案修改：loohawe@github.com
   description : |
       小鹤双拼，双形为辅助码，有需要时按 tab 键移动光标补加形码。
 switches:
@@ -52,7 +52,7 @@ speller:
 
 translator:
   # 有简体字、繁体字两个单字码表，另外有一个常用词语码表。码表来自小鹤官网。
-  dictionary: flypy_double 
+  dictionary: double_pinyin_flypy_lh 
 
 punctuator:
   import_preset: symbols
