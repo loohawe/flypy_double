@@ -12,6 +12,8 @@ schema :
   description : |
       小鹤双拼，双形为辅助码，有需要时按 tab 键移动光标补加形码。
 switches:
+  - name: ascii_punct
+    states: [ 。，, ．， ]
   - name: full_shape
     states: [ 半角, 全角 ]
   - name: flypy_zh_simp
